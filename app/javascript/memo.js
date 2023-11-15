@@ -31,9 +31,9 @@ function post (){
     const list =document.getElementById("list");
     const formText = document.getElementById("content");
     list.insertAdjacentHTML("afterend",buildHTML(XHR));
-    formText.value ="";
+    formText.vaue ="";
       };
     });
 };
 
-window.addEventListener('turbo:load', post);
+window.addEventListener('turbo:load',post);
